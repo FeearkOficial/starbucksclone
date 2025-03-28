@@ -143,3 +143,44 @@ body {
     letter-spacing: 1.5px;
     font-size: 18px;
 }
+.spanbox {
+    font-weight: 800;
+}
+/* FOOTER - INICIO */
+.footer-area{
+    height: 500px;
+    width: 100vw;
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0 -6px 6px -6px  #222;
+    margin-top: 30px;
+}
+.footer-content {
+    display: flex;
+}
+.footer-row {
+    display: flex;
+}
+.footer-col {
+    display: flex;
+    margin-left: 50px;
+    padding: 30%;
+    white-space: nowrap;
+}
+.col-title {
+    display: flex;
+    font-weight: lighter;
+}
+.footer-col ul {
+    display: flex;
+    flex-direction: column;
+}
+.footer-col li {
+    display: flex;
+    padding: 5%;
+}
+.footer-col li a { 
+    display: flex;
+    text-decoration: none;
+    color: #B2B2B2;
+}
